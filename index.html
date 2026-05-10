@@ -1,15 +1,197 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
-  <title>Meu Site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>LooksMax Guide</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0f0f0f;
+      color:white;
+    }
+
+    header{
+      background:#151515;
+      padding:25px;
+      text-align:center;
+      border-bottom:1px solid #333;
+    }
+
+    header h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      color:#bdbdbd;
+    }
+
+    nav{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:15px;
+      padding:20px;
+      background:#111;
+      border-bottom:1px solid #222;
+    }
+
+    nav a{
+      text-decoration:none;
+      color:white;
+      background:#222;
+      padding:12px 18px;
+      border-radius:10px;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      background:#444;
+      transform:scale(1.05);
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+      padding:40px 0;
+    }
+
+    .card{
+      background:#1a1a1a;
+      margin-bottom:30px;
+      padding:30px;
+      border-radius:20px;
+      border:1px solid #2c2c2c;
+      box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+    }
+
+    .card h2{
+      margin-bottom:20px;
+      font-size:30px;
+    }
+
+    .card ul{
+      margin-left:20px;
+      line-height:2;
+      color:#d6d6d6;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      border-top:1px solid #222;
+      color:#888;
+      margin-top:40px;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+  </style>
+
 </head>
 
-<body style="font-family: Arial; text-align:center; margin-top:100px;">
-  <h1>Meu primeiro site</h1>
-  <p>Site criado gratuitamente em 15 minutos.</p>
+<body>
 
-  <button onclick="alert('Funcionou!')">
-    Clique aqui
-  </button>
+  <header>
+    <h1>LOOKSMAX GUIDE</h1>
+    <p>Melhore aparência, postura, pele e físico.</p>
+  </header>
+
+  <nav>
+    <a href="#pele">Skincare</a>
+    <a href="#corpo">Corpo</a>
+    <a href="#cabelo">Cabelo</a>
+    <a href="#postura">Postura</a>
+    <a href="#estilo">Estilo</a>
+  </nav>
+
+  <div class="container">
+
+    <section class="card" id="pele">
+      <h2>Skincare e Rosto</h2>
+
+      <ul>
+        <li>Lavar o rosto 2x ao dia</li>
+        <li>Usar protetor solar diariamente</li>
+        <li>Controlar oleosidade</li>
+        <li>Beber bastante água</li>
+        <li>Usar hidratante facial</li>
+        <li>Melhorar qualidade do sono</li>
+      </ul>
+    </section>
+
+    <section class="card" id="corpo">
+      <h2>Corpo e Shape</h2>
+
+      <ul>
+        <li>Treino de musculação</li>
+        <li>Redução de gordura corporal</li>
+        <li>Dieta rica em proteínas</li>
+        <li>Cardio regular</li>
+        <li>Melhorar largura dos ombros</li>
+        <li>Fortalecer costas e pescoço</li>
+      </ul>
+    </section>
+
+    <section class="card" id="cabelo">
+      <h2>Cabelo</h2>
+
+      <ul>
+        <li>Encontrar corte ideal</li>
+        <li>Controlar frizz</li>
+        <li>Usar shampoo adequado</li>
+        <li>Evitar excesso de química</li>
+        <li>Manter volume saudável</li>
+        <li>Fazer manutenção frequente</li>
+      </ul>
+    </section>
+
+    <section class="card" id="postura">
+      <h2>Postura e Presença</h2>
+
+      <ul>
+        <li>Corrigir anteriorização dos ombros</li>
+        <li>Treinar postura cervical</li>
+        <li>Melhorar caminhada</li>
+        <li>Manter contato visual</li>
+        <li>Trabalhar linguagem corporal</li>
+        <li>Fortalecer core</li>
+      </ul>
+    </section>
+
+    <section class="card" id="estilo">
+      <h2>Estilo e Vestimenta</h2>
+
+      <ul>
+        <li>Usar roupas ajustadas</li>
+        <li>Escolher cores neutras</li>
+        <li>Melhorar combinação de peças</li>
+        <li>Usar acessórios discretos</li>
+        <li>Investir em calçados limpos</li>
+        <li>Encontrar identidade visual</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    LooksMax Guide © 2026
+  </footer>
+
 </body>
+
 </html>
