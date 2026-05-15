@@ -3,69 +3,183 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Looksmaxing Masculino | Transformação, Estética e Autocuidado</title>
-  <meta name="description" content="Documentação de transformação estética masculina com foco em cabelo, pele, físico, estilo, hábitos e presença visual." />
+
+  <title>Dr Chiroli | Protocolo de Transformação Masculina</title>
+  <meta name="description" content="Transformação estética masculina documentada com foco em aparência, dieta ancestral, treino, pele, cabelo, postura, estilo e presença visual." />
   <meta name="author" content="Hiram Chiroli" />
 
-  <meta property="og:title" content="Looksmaxing Masculino | Transformação Real" />
-  <meta property="og:description" content="Acompanhe minha transformação e acesse conteúdos sobre aparência, autocuidado e evolução estética masculina." />
+  <meta property="og:title" content="Dr Chiroli | Protocolo de Transformação Masculina" />
+  <meta property="og:description" content="Um diário de transformação estética masculina baseado em aparência, dieta, treino, pele, cabelo, estilo e presença visual." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/img/preview.jpg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .hero-image {
+      width: 100%;
+      height: 520px;
+      object-fit: cover;
+      border-radius: 26px;
+    }
+
+    .phase-photo {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 22px;
+      margin-bottom: 18px;
+      background: #e9e2d8;
+      border: 1px solid rgba(24, 23, 22, 0.10);
+    }
+
+    .protocol-note {
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 22px;
+      background: rgba(155,107,67,0.10);
+      color: var(--muted);
+      border: 1px solid rgba(155,107,67,0.18);
+    }
+
+    .dark .protocol-note {
+      background: rgba(255,255,255,0.06);
+      color: #bdb6ad;
+      border-color: rgba(255,255,255,0.10);
+    }
+
+    .micro-list {
+      margin-top: 18px;
+      list-style: none;
+    }
+
+    .micro-list li {
+      margin-bottom: 12px;
+      padding-left: 28px;
+      position: relative;
+      color: var(--muted);
+    }
+
+    .dark .micro-list li {
+      color: #bdb6ad;
+    }
+
+    .micro-list li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 900;
+    }
+
+    .quote-strip {
+      padding: 34px;
+      border-radius: 30px;
+      background: rgba(155,107,67,0.10);
+      border: 1px solid rgba(155,107,67,0.16);
+      margin-top: 34px;
+    }
+
+    .quote-strip strong {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    .quote-strip p {
+      color: var(--muted);
+    }
+
+    .dark .quote-strip {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.10);
+    }
+
+    .dark .quote-strip p {
+      color: #bdb6ad;
+    }
+
+    .source-links {
+      margin-top: 24px;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    .source-links a {
+      color: var(--accent);
+      font-weight: 800;
+    }
+  </style>
 </head>
 
 <body>
   <header class="navbar">
-    <a href="#inicio" class="logo">Looksmaxing<span>.</span></a>
+    <a href="#inicio" class="logo">Dr Chiroli<span>.</span></a>
+
     <nav id="nav-menu">
       <a href="#transformacao">Transformação</a>
+      <a href="#protocolo">Protocolo</a>
       <a href="#pilares">Pilares</a>
       <a href="#guia">Guia</a>
       <a href="#consultoria">Consultoria</a>
       <a href="#faq">FAQ</a>
     </nav>
+
     <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
   </header>
 
   <main>
     <section class="hero" id="inicio">
       <div class="hero-content">
-        <p class="eyebrow">transformação estética masculina documentada</p>
-        <h1>Melhore sua aparência com método, constância e estratégia.</h1>
+        <p class="eyebrow">protocolo privado de transformação estética</p>
+
+        <h1>Aparência não é sorte. É sistema.</h1>
+
         <p class="hero-text">
-          Aqui eu documento minha evolução com looksmaxing: cabelo, pele, físico, estilo,
-          postura, fotos, hábitos e presença visual. A ideia é mostrar uma transformação real,
-          sem promessa milagrosa e sem atalhos perigosos.
+          Este é meu diário público de transformação masculina: dieta baseada em comida de verdade,
+          treino, pele, cabelo, postura, estilo, fotos e presença visual. A proposta não é vender um
+          milagre. É documentar uma construção estética real, fase por fase, com método, repetição e
+          refinamento.
         </p>
+
         <div class="hero-actions">
-          <a href="#guia" class="btn primary">Quero o guia completo</a>
-          <a href="#transformacao" class="btn secondary">Ver transformação</a>
+          <a href="#guia" class="btn primary">Acessar o protocolo</a>
+          <a href="#transformacao" class="btn secondary">Ver minha evolução</a>
         </div>
+
         <div class="stats">
           <div>
-            <strong>6+</strong>
-            <span>pilares de evolução</span>
+            <strong>4</strong>
+            <span>fases documentadas</span>
           </div>
           <div>
-            <strong>100%</strong>
-            <span>documentado</span>
+            <strong>7</strong>
+            <span>pilares do método</span>
           </div>
           <div>
             <strong>0</strong>
-            <span>promessas milagrosas</span>
+            <span>promessa milagrosa</span>
           </div>
+        </div>
+
+        <div class="protocol-note">
+          O foco aqui é simples: retirar ruído, organizar rotina e construir uma imagem mais forte.
+          Menos ultraprocessado. Mais proteína. Mais sol, treino, sono, estética e execução diária.
         </div>
       </div>
 
       <div class="hero-card">
-        <img src="assets/img/IMG_3168.PNG" alt="Foto da transformação" class="hero-image">
+        <img src="assets/img/IMG_3168.PNG" alt="Foto principal da transformação" class="hero-image">
+
         <div class="card-note">
-          <strong>Antes → Depois</strong>
-          <p>Use esta área para mostrar sua evolução com iluminação, ângulo e datas comparáveis.</p>
+          <strong>Diário visual de evolução</strong>
+          <p>
+            Esta foto é o ponto de entrada. As próximas fases serão registradas com imagens,
+            descrição objetiva e ajustes feitos em cabelo, pele, shape, estilo e dieta.
+          </p>
         </div>
       </div>
     </section>
@@ -73,56 +187,153 @@
     <section class="section" id="transformacao">
       <div class="section-heading">
         <p class="eyebrow">linha do tempo</p>
-        <h2>Minha transformação</h2>
+        <h2>Minha transformação em 4 fases</h2>
         <p>
-          Registre sua evolução por fases. O ideal é comparar fotos com a mesma distância,
-          iluminação, expressão facial, barba/cabelo semelhantes e datas visíveis.
+          A transformação será registrada como um experimento visual. Cada fase terá uma foto,
+          uma descrição honesta do estado atual e os ajustes feitos no período. O objetivo é
+          comparar evolução real, não manipulação de ângulo, luz ou edição.
         </p>
       </div>
 
       <div class="timeline">
         <article class="timeline-item">
+          <img src="assets/img/fase-01.jpg" alt="Fase 01 da transformação" class="phase-photo">
           <span class="date">Fase 01</span>
-          <h3>Ponto de partida</h3>
+          <h3>Base bruta</h3>
           <p>
-            Avaliação inicial: cabelo, pele, shape, postura, roupas, qualidade do sono,
-            higiene, alimentação e confiança social.
+            Ponto de partida. Aqui entram as primeiras fotos, sem tentativa de parecer perfeito:
+            rosto, cabelo, pele, físico, postura, barba, estilo e presença geral. É a fase de
+            diagnóstico estético.
           </p>
         </article>
+
         <article class="timeline-item">
+          <img src="assets/img/fase-02.jpg" alt="Fase 02 da transformação" class="phase-photo">
           <span class="date">Fase 02</span>
-          <h3>Correções básicas</h3>
+          <h3>Limpeza visual</h3>
           <p>
-            Ajustes de corte de cabelo, skincare simples, treino consistente, roupas com melhor
-            caimento e melhora da rotina de sono.
+            Correção dos erros mais visíveis: cabelo sem forma, pele negligenciada, roupa com
+            caimento ruim, postura fraca, excesso de ruído alimentar e aparência cansada.
           </p>
         </article>
+
         <article class="timeline-item">
+          <img src="assets/img/fase-03.jpg" alt="Fase 03 da transformação" class="phase-photo">
           <span class="date">Fase 03</span>
+          <h3>Construção de traço</h3>
+          <p>
+            A fase em que o rosto começa a parecer mais definido, o shape ganha presença, o estilo
+            fica mais coerente e a rotina começa a refletir diretamente na imagem.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <img src="assets/img/fase-04.jpg" alt="Fase 04 da transformação" class="phase-photo">
+          <span class="date">Fase 04</span>
           <h3>Refinamento</h3>
           <p>
-            Otimização de detalhes: barba, sobrancelha, estilo pessoal, postura, fotos,
-            linguagem corporal e presença visual.
-          </p>
-        </article>
-        <article class="timeline-item">
-          <span class="date">Fase 04</span>
-          <h3>Manutenção</h3>
-          <p>
-            Construção de um sistema sustentável para manter aparência, saúde, energia,
-            autoestima e consistência a longo prazo.
+            Ajuste fino: cabelo, barba, pele, fotos, roupas, expressão, postura, composição corporal
+            e consistência. Aqui o objetivo deixa de ser “melhorar” e passa a ser manter padrão.
           </p>
         </article>
       </div>
+
+      <div class="quote-strip">
+        <strong>Como você vai usar essa seção</strong>
+        <p>
+          Depois que você separar suas 4 fotos, renomeie os arquivos para
+          <strong>fase-01.jpg</strong>, <strong>fase-02.jpg</strong>, <strong>fase-03.jpg</strong> e
+          <strong>fase-04.jpg</strong>, envie para <strong>assets/img/</strong> e me mande a descrição
+          de cada uma. Eu transformo isso em uma narrativa estética forte e organizada.
+        </p>
+      </div>
     </section>
 
-    <section class="section dark" id="pilares">
+    <section class="section dark" id="protocolo">
       <div class="section-heading">
-        <p class="eyebrow">método</p>
-        <h2>Os pilares do looksmaxing</h2>
+        <p class="eyebrow">nutrição estética</p>
+        <h2>Protocolo alimentar: carne, frutas e gorduras boas</h2>
         <p>
-          Looksmaxing não deve ser entendido como obsessão por aparência, mas como organização
-          estratégica de autocuidado, saúde, estética, estilo e apresentação pessoal.
+          A base alimentar do projeto segue uma lógica simples: proteína animal de alta densidade
+          nutricional, frutas como fonte de carboidrato simples e palatável, gorduras de melhor
+          qualidade e redução agressiva de ultraprocessados. Não é uma religião alimentar. É uma
+          estrutura prática para energia, saciedade, treino e aparência.
+        </p>
+      </div>
+
+      <div class="grid">
+        <article class="pillar">
+          <h3>01. Carne vermelha como âncora</h3>
+          <p>
+            A carne vermelha entra como alimento central pela densidade de proteína, ferro, zinco,
+            creatina, B12 e saciedade. A regra é priorizar cortes de verdade e evitar transformar
+            isso em dieta de bacon, embutido e ultraprocessado.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>02. Frutas como energia limpa</h3>
+          <p>
+            Frutas entram como carboidrato de melhor qualidade para treino, glicogênio, palatabilidade
+            e adesão. Banana, laranja, manga, abacaxi, melancia, uva e frutas vermelhas podem ser
+            usadas conforme tolerância digestiva e objetivo calórico.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>03. Gorduras saudáveis</h3>
+          <p>
+            O foco não é encher a dieta de gordura sem critério. A ideia é usar ovos, azeite, abacate,
+            peixes gordurosos, castanhas em porções controladas e a própria gordura natural dos
+            alimentos, sem exagero crônico de gordura saturada.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>04. Mel como ferramenta</h3>
+          <p>
+            Mel pode funcionar como carboidrato rápido antes do treino ou em refeições estratégicas,
+            mas não deve virar desculpa para consumo descontrolado de açúcar. A dose precisa servir
+            ao treino, não ao vício em doce.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>05. Laticínios com teste individual</h3>
+          <p>
+            Leite, iogurte, kefir e queijos podem funcionar muito bem para alguns e piorar acne,
+            digestão ou retenção em outros. A regra é testar, observar pele/intestino e manter apenas
+            o que melhora sua aparência e performance.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>06. Exclusão do lixo alimentar</h3>
+          <p>
+            O maior “segredo” continua sendo o menos glamouroso: retirar refrigerante, fritura,
+            biscoito, doces diários, álcool frequente, fast-food e comida hiperpalatável. Isso sozinho
+            já muda pele, rosto, retenção e composição corporal.
+          </p>
+        </article>
+      </div>
+
+      <div class="quote-strip">
+        <strong>Nota importante</strong>
+        <p>
+          Este protocolo não substitui nutricionista, médico ou avaliação individual. Pessoas com
+          dislipidemia, diabetes, doença renal, doença hepática, histórico cardiovascular, compulsão
+          alimentar ou uso de medicações devem fazer acompanhamento profissional antes de mudar a dieta.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="pilares">
+      <div class="section-heading">
+        <p class="eyebrow">o método</p>
+        <h2>Os 7 pilares do código estético</h2>
+        <p>
+          Looksmaxing não é só “ficar bonito”. É reduzir pontos fracos visuais, aumentar sinais de
+          saúde, melhorar presença social e construir uma imagem que pareça intencional.
         </p>
       </div>
 
@@ -130,42 +341,117 @@
         <article class="pillar">
           <h3>Cabelo</h3>
           <p>
-            Corte adequado ao formato do rosto, controle de oleosidade, finalização, volume,
-            textura e manutenção regular.
+            Corte compatível com formato do rosto, textura, densidade capilar e estilo pessoal.
+            O cabelo é moldura do rosto: quando está errado, todo o resto parece pior.
           </p>
         </article>
+
         <article class="pillar">
           <h3>Pele</h3>
           <p>
-            Limpeza, hidratação, proteção solar, controle de acne/oleosidade e orientação
-            profissional quando houver lesões persistentes.
+            Limpeza, hidratação, proteção solar e controle de acne/oleosidade. Pele boa não é detalhe:
+            é um dos maiores sinais visuais de saúde, higiene e juventude.
           </p>
         </article>
+
         <article class="pillar">
           <h3>Físico</h3>
           <p>
-            Treino, composição corporal, postura, condicionamento, alimentação e sono como base
-            da aparência masculina.
+            Treino de força, composição corporal, ombros, cintura, pescoço, postura e condicionamento.
+            O shape muda a forma como roupas caem e como o rosto é percebido.
           </p>
         </article>
+
+        <article class="pillar">
+          <h3>Dieta</h3>
+          <p>
+            Carne, ovos, frutas, boas gorduras, sal suficiente, água e menos ultraprocessados. A dieta
+            não aparece só no abdômen: aparece na pele, no rosto, na energia e no olhar.
+          </p>
+        </article>
+
         <article class="pillar">
           <h3>Estilo</h3>
           <p>
-            Roupas com bom caimento, cores coerentes, calçados limpos, acessórios discretos e
-            imagem alinhada ao ambiente.
+            Roupas com caimento, cores coerentes, tênis limpo, acessórios discretos e estética alinhada
+            ao ambiente. Estilo é correção visual de baixo custo.
           </p>
         </article>
+
         <article class="pillar">
           <h3>Higiene</h3>
           <p>
-            Odor, barba, unhas, hálito, cabelo limpo, pele cuidada e detalhes que mudam a
-            percepção social.
+            Hálito, odor, unhas, barba, sobrancelha, cabelo limpo, pele sem aspecto oleoso e roupas
+            bem cuidadas. O básico, quando negligenciado, destrói qualquer potencial estético.
           </p>
         </article>
+
         <article class="pillar">
           <h3>Presença</h3>
           <p>
-            Postura, olhar, comunicação, fotos, expressão facial, confiança e linguagem corporal.
+            Postura, olhar, expressão facial, fotos, tom de voz, linguagem corporal e calma. Aparência
+            também é como você ocupa o espaço.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dark" id="codigo">
+      <div class="section-heading">
+        <p class="eyebrow">regras internas</p>
+        <h2>O código que guia o projeto</h2>
+        <p>
+          O método não depende de motivação. Depende de regras simples, repetidas por tempo suficiente
+          para que a aparência comece a denunciar a rotina.
+        </p>
+      </div>
+
+      <div class="grid">
+        <article class="pillar">
+          <h3>Regra 1: não confundir estética com vaidade vazia</h3>
+          <p>
+            Aparência é comunicação. Seu rosto, pele, cabelo, roupa e postura transmitem informação
+            antes de qualquer palavra.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>Regra 2: primeiro remova o que piora</h3>
+          <p>
+            Antes de procurar hacks, remova sono ruim, comida lixo, álcool frequente, sedentarismo,
+            cabelo descuidado e pele negligenciada.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>Regra 3: fotos revelam o que o espelho esconde</h3>
+          <p>
+            O espelho perdoa. A câmera não. Por isso a evolução será medida em fotos, sempre com
+            comparação justa e iluminação semelhante.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>Regra 4: o rosto acompanha o corpo</h3>
+          <p>
+            Composição corporal, retenção, inflamação percebida, sono e treino alteram nitidez facial,
+            olhar e presença geral.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>Regra 5: o básico precisa parecer raro</h3>
+          <p>
+            Cabelo limpo, pele cuidada, roupa ajustada, bom cheiro, postura e shape decente já colocam
+            você acima da média visual.
+          </p>
+        </article>
+
+        <article class="pillar">
+          <h3>Regra 6: consistência vence intensidade</h3>
+          <p>
+            Não adianta fazer tudo por 10 dias e sumir por 3 meses. O protocolo precisa caber na vida
+            real para gerar resultado visual sustentável.
           </p>
         </article>
       </div>
@@ -174,41 +460,54 @@
     <section class="section split" id="guia">
       <div>
         <p class="eyebrow">produto digital</p>
-        <h2>Guia Looksmaxing Masculino</h2>
+
+        <h2>Guia Dr Chiroli: Protocolo de Aparência Masculina</h2>
+
         <p>
-          Um material direto para quem quer melhorar aparência sem ficar perdido em conteúdo
-          aleatório da internet. A proposta é entregar um passo a passo organizado, aplicável
-          e realista.
+          Um guia direto para quem quer parar de consumir conteúdo solto e começar a organizar a própria
+          evolução estética. A ideia é transformar aparência em sistema: diagnóstico, rotina, execução e
+          registro visual.
         </p>
 
         <ul class="checklist">
-          <li>Checklist de cabelo, pele, shape, estilo e higiene.</li>
-          <li>Como avaliar seus pontos fracos de aparência.</li>
-          <li>Como montar uma rotina semanal simples.</li>
-          <li>Como melhorar fotos e presença visual.</li>
-          <li>Erros comuns que sabotam sua imagem.</li>
+          <li>Checklist de cabelo, pele, físico, higiene, estilo e presença.</li>
+          <li>Modelo de dieta com carne, frutas, ovos e gorduras boas.</li>
+          <li>Como identificar seus principais pontos fracos visuais.</li>
+          <li>Como montar uma rotina semanal de evolução estética.</li>
+          <li>Como tirar fotos comparáveis para acompanhar progresso.</li>
+          <li>Erros que deixam o homem com aparência cansada, fraca ou desleixada.</li>
+          <li>Estratégia de refinamento: do básico ao detalhe.</li>
         </ul>
 
         <a class="btn primary" href="https://SEU-LINK-DE-COMPRA-AQUI.com" target="_blank" rel="noopener">
-          Comprar guia completo
+          Comprar protocolo completo
         </a>
+
+        <p class="source-links">
+          Em breve: versão com PDF, checklist de fotos, lista de compras e protocolo semanal.
+        </p>
       </div>
 
       <aside class="price-card">
-        <p class="badge">acesso inicial</p>
-        <h3>Guia Completo</h3>
+        <p class="badge">acesso fundador</p>
+        <h3>Protocolo Completo</h3>
         <p class="price">R$ 19,90</p>
-        <p class="muted">Troque o preço, o link e a plataforma de venda quando configurar Hotmart, Kiwify, Gumroad ou Mercado Pago.</p>
+        <p class="muted">
+          Preço inicial para validar o projeto. Depois, você pode aumentar conforme adicionar PDF,
+          vídeos, consultoria, estudos de caso e análise individual.
+        </p>
       </aside>
     </section>
 
     <section class="section" id="consultoria">
       <div class="section-heading">
-        <p class="eyebrow">atendimento</p>
-        <h2>Consultoria individual</h2>
+        <p class="eyebrow">análise individual</p>
+
+        <h2>Consultoria estética</h2>
+
         <p>
-          Para quem quer uma análise personalizada de aparência, rotina, cabelo, pele, roupas,
-          fotos e estratégia de evolução visual.
+          Para quem quer uma análise mais direta da própria aparência: fotos, cabelo, pele, barba,
+          shape, estilo, postura, perfil de Instagram e prioridades de mudança.
         </p>
       </div>
 
@@ -216,10 +515,18 @@
         <div>
           <h3>O que pode ser analisado</h3>
           <p>
-            Fotos, estilo atual, corte de cabelo, barba, pele, shape, roupas, postura, perfil
-            de Instagram e prioridades de mudança.
+            Foto frontal, perfil, sorriso, cabelo, sobrancelha, barba, pele, roupas, composição corporal,
+            postura, presença visual e pontos de maior retorno estético.
           </p>
+
+          <ul class="micro-list">
+            <li>Análise objetiva dos principais pontos fracos.</li>
+            <li>Prioridade do que mudar primeiro.</li>
+            <li>Sugestão de rotina visual e alimentar básica.</li>
+            <li>Direção de estilo, cabelo e fotos.</li>
+          </ul>
         </div>
+
         <a class="btn secondary" href="https://wa.me/5565996694030" target="_blank" rel="noopener">
           Falar no WhatsApp
         </a>
@@ -228,22 +535,25 @@
 
     <section class="section dark" id="depoimentos">
       <div class="section-heading">
-        <p class="eyebrow">prova social</p>
+        <p class="eyebrow">registro social</p>
+
         <h2>Resultados e relatos</h2>
+
         <p>
-          Use esta seção quando tiver relatos reais. Não invente depoimentos. Coloque apenas
-          feedbacks autorizados e, se possível, sem expor dados pessoais.
+          Esta área será preenchida apenas com relatos reais e autorizados. Sem depoimento inventado,
+          sem antes e depois falso e sem promessa de resultado garantido.
         </p>
       </div>
 
       <div class="testimonials">
         <blockquote>
-          “Espaço reservado para depoimento real.”
-          <cite>— Cliente/Aluno</cite>
+          “Espaço reservado para depoimento real de alguém que aplicou o protocolo.”
+          <cite>— Aluno/Cliente</cite>
         </blockquote>
+
         <blockquote>
-          “Espaço reservado para outro relato autorizado.”
-          <cite>— Cliente/Aluno</cite>
+          “Espaço reservado para relato autorizado sobre evolução de aparência, estilo ou rotina.”
+          <cite>— Aluno/Cliente</cite>
         </blockquote>
       </div>
     </section>
@@ -256,35 +566,54 @@
 
       <div class="faq">
         <details>
-          <summary>Looksmaxing é só aparência?</summary>
+          <summary>Esse protocolo é uma dieta carnívora?</summary>
           <p>
-            Não. A aparência é uma consequência de vários pilares: saúde, sono, treino,
-            alimentação, pele, cabelo, higiene, estilo, postura e autoconfiança.
+            Não exatamente. A proposta é mais próxima de uma abordagem baseada em comida de verdade:
+            carne, ovos, frutas, boas gorduras e baixa presença de ultraprocessados. Não é uma dieta
+            religiosa e não exige excluir todos os vegetais se eles funcionam bem para você.
+          </p>
+        </details>
+
+        <details>
+          <summary>Carne vermelha pode ser consumida sem limite?</summary>
+          <p>
+            Não. O objetivo é usar carne vermelha como uma fonte nutritiva de proteína, não como licença
+            para exagerar em gordura saturada, embutidos ou carnes processadas. Quantidade, exames,
+            histórico familiar e contexto individual importam.
+          </p>
+        </details>
+
+        <details>
+          <summary>Frutas e mel não são açúcar?</summary>
+          <p>
+            Frutas têm água, fibras, micronutrientes e matriz alimentar diferente de doces ultraprocessados.
+            Mel pode ser usado como ferramenta energética, principalmente perto do treino, mas ainda precisa
+            de dose e contexto.
+          </p>
+        </details>
+
+        <details>
+          <summary>Esse conteúdo substitui médico, dermatologista ou nutricionista?</summary>
+          <p>
+            Não. O conteúdo é educativo e baseado em experiência pessoal, organização de rotina e estética
+            masculina. Problemas de pele, queda de cabelo, alterações hormonais, exames ruins, diabetes,
+            colesterol alto ou qualquer doença precisam de avaliação profissional.
           </p>
         </details>
 
         <details>
           <summary>Você promete resultado?</summary>
           <p>
-            Não. O site documenta experiências, estratégias e organização de rotina. Resultados
-            variam conforme genética, constância, saúde, contexto e execução.
+            Não. O site documenta método, rotina e evolução visual. Resultado depende de genética,
+            constância, saúde, sono, alimentação, treino, execução, contexto e tempo.
           </p>
         </details>
 
         <details>
-          <summary>O conteúdo substitui médico, dermatologista ou nutricionista?</summary>
+          <summary>Como eu acompanho a transformação?</summary>
           <p>
-            Não. O conteúdo é educativo e não substitui avaliação profissional. Problemas de pele,
-            queda de cabelo, uso de medicamentos, hormônios ou procedimentos devem ser avaliados
-            por profissionais habilitados.
-          </p>
-        </details>
-
-        <details>
-          <summary>Posso comprar pelo GitHub?</summary>
-          <p>
-            Não é o ideal. O GitHub Pages deve funcionar como vitrine. Pagamentos, área de membros
-            e entrega do produto devem ser feitos por plataformas externas.
+            Acompanhe as fases do site, Instagram e atualizações do protocolo. A ideia é mostrar o processo
+            real: o que foi feito, o que funcionou, o que não funcionou e como a aparência mudou.
           </p>
         </details>
       </div>
@@ -294,15 +623,17 @@
   <footer>
     <div>
       <strong>Dr Chiroli</strong>
+
       <p>
-        Conteúdo educativo sobre aparência, autocuidado, estética masculina e desenvolvimento
-        pessoal. Não substitui avaliação médica, dermatológica, nutricional, psicológica ou de
-        outro profissional habilitado.
+        Conteúdo educativo sobre aparência, autocuidado, estética masculina, dieta, treino e
+        desenvolvimento pessoal. Não substitui avaliação médica, dermatológica, nutricional,
+        psicológica ou de outro profissional habilitado.
       </p>
     </div>
+
     <div class="footer-links">
       <a href="https://instagram.com/hiramchiroli_" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://wa.me/5565999999999" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://wa.me/5565996694030" target="_blank" rel="noopener">WhatsApp</a>
       <a href="mailto:hiramchiroli@gmail.com">E-mail</a>
     </div>
   </footer>
